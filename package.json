@@ -1,6 +1,6 @@
 {
   "name": "its-vue-template",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "its-vue-template",
   "main": "lib/its-vue-template.umd.min.js",
   "private": false,
