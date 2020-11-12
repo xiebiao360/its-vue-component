@@ -1,21 +1,32 @@
 {
   "name": "its-vue-template",
   "version": "0.1.0",
-  "private": true,
+  "description": "its-vue-template",
+  "main": "lib/its-vue-template.umd.min.js",
+  "private": false,
+  "license": "MIT",
+  "author": {
+    "name": "xiebiao",
+    "email": "1404027855@qq.com"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name its-vue-template --dest lib packages/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "element-ui": "^2.14.1",
     "vue": "^2.6.11"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.12.1",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "babel-eslint": "^10.1.0",
+    "babel-plugin-component": "^1.1.1",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
     "vue-template-compiler": "^2.6.11"
