@@ -1,4 +1,4 @@
-# its-vue-template
+# its-vue-component
 
 ## Project setup
 ```
