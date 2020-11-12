@@ -1,8 +1,8 @@
 {
-  "name": "its-vue-template",
+  "name": "its-vue-component",
   "version": "1.0.0",
-  "description": "its-vue-template",
-  "main": "lib/its-vue-template.umd.min.js",
+  "description": "its-vue-component",
+  "main": "lib/its-vue-component.umd.min.js",
   "private": false,
   "license": "MIT",
   "author": {
@@ -13,7 +13,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "lib": "vue-cli-service build --target lib --name its-vue-template --dest lib packages/index.js"
+    "lib": "vue-cli-service build --target lib --name its-vue-component --dest lib packages/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
